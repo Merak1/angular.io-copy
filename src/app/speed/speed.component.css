@@ -1,0 +1,50 @@
+.speed{
+    height: 200px;
+    width: 80%;
+
+    background-color: aquamarine;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 32px;
+}
+@media (max-width: 850px){
+    .speed{
+        width: 90%;
+        margin-left: 50px;
+
+    }
+    .speed img{
+        margin-top: 16px;
+    }
+
+}
+.speed-img{
+    width:40%;
+    flex: 1;
+    
+}
+.speed-img img{
+    height: 80%;
+    padding-top:5px; 
+   
+}
+.speed-text{
+    width:60%;
+     flex: 1;
+}
+P{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+}
+.speed-text h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(25, 118, 210);
+    margin-top: 10px;
+    text-transform: uppercase;
+} 

@@ -1,0 +1,51 @@
+.develop{
+    height: 200px;
+    width: 80%;
+
+    background-color: aquamarine;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 850px){
+    .develop{
+        width: 90%;
+        margin-left: 50px;
+        
+
+    }
+    .develop img{
+        margin-top: 16px;
+    
+    }
+
+}
+.develop-img{
+    width:40%;
+      flex: 1;
+    
+}
+.develop-img img{
+    height: 85%;
+}
+.develop-text{
+    width:60%;
+      flex: 1;
+}
+P{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    font-weight: 400;
+}
+.develop-text h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(25, 118, 210);
+    margin-top: 10px;
+    text-transform: uppercase;
+} 

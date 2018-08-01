@@ -1,0 +1,60 @@
+.first-info-box{
+   border: solid 1px rgb(212, 212, 212);
+    width: 50%;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.993);
+    border-radius: 4px;
+    box-shadow: 0 2px 2px rgba(10,16,20,.24), 0 0 2px rgba(10,16,20,.12);
+    margin-top: 50px;
+    transition: all .3s ease-in;
+    margin-bottom: 50px;
+}
+#first-img #first-p #first-button{
+    flex: 1;
+    padding-right: 5px;
+
+}
+
+
+.first-img {
+    width: 150px;
+    margin: auto;
+}
+/* button */
+.learn-more {
+    display: inline-block;
+    line-height: 32px;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border: none;
+}
+
+@media (max-width: 850px){
+    
+    .first-info-box{
+           display: flex;
+        flex-flow: column;
+        text-align: center;
+         
+    }
+      .first-img {
+        height:  20%;
+        margin: auto;
+    }
+
+}
+@media (max-width: 600px){
+
+  
+}

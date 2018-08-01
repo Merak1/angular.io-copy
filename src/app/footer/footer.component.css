@@ -1,0 +1,37 @@
+.blue-foot{
+    position: relative;
+    line-height: 24px;
+    flex: 1;
+    padding: 48px;
+    z-index: 0;
+    background-color: #1976d2;
+    color: #fafafa;
+    font-weight: 300;
+  
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 0 0 40px;
+}
+.footer .foot-block{
+    margin: 0 24px;
+    vertical-align: top;
+}
+.footer h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 0 16px;
+}
+.footer ul{
+    list-style-position: inside;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
