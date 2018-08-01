@@ -13,3 +13,19 @@
 a  {
     text-decoration: none;
 }
+hr {
+    border: none;
+    background: #dbdbdb;
+    height: 1px;
+}
+
+
+@media (max-width: 660px){
+p, h1{
+
+    text-align: center;
+}
+
+
+
+ }

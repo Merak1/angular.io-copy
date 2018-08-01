@@ -15,6 +15,32 @@
     text-align: left;
     margin: 0 0 40px;
 }
+@media (max-width: 600px){
+    .footer {
+       flex-direction: column;
+        
+    }
+    .foot-block{
+        margin: 8px 24px;
+    }
+    footer h3 {
+        font-size: 100%;
+    }
+}
+ .footer-details{
+    text-align: center;
+}
+footer::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAD6CAYAAABXq7VOAAAABGdBT…AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADr5f0oBcmudcjuNAAAAAElFTkSuQmCC) top 0 left 0/320px auto,url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAD6CAYAAABXq7VOAAAABGdBT…AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADr5f0oBcmudcjuNAAAAAElFTkSuQmCC) top 80px left 160px/320px auto;
+    opacity: .05;
+}
 .footer .foot-block{
     margin: 0 24px;
     vertical-align: top;
